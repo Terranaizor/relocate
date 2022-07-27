@@ -1,0 +1,15 @@
+
+#include <unistd.h>
+
+int	main(void)
+{
+	char	s1[10] = "FAGHFAFas", s2[10] = "g1782r12";
+	char c;
+
+	c = ft_str_is_alpha(s1) + 48;
+	write(1, &c, 1);
+	c = ft_str_is_alpha(s2) + 48;
+	write(1, &c, 1);
+	return (0);
+}
+//10

@@ -1,0 +1,26 @@
+
+#include <unistd.h>
+
+int	main(void)
+{
+	int		arr[5];
+	char	c;
+
+	arr[0] = 1;
+	arr[1] = 2;
+	arr[2] = 3;
+	arr[3] = 4;
+	arr[4] = 5;
+	ft_rev_int_tab(arr, 5);
+	c = arr[0] + 48;
+	write(1, &c, 1);
+	c = arr[1] + 48;
+	write(1, &c, 1);
+	c = arr[2] + 48;
+	write(1, &c, 1);
+	c = arr[3] + 48;
+	write(1, &c, 1);
+	c = arr[4] + 48;
+	write(1, &c, 1);
+}
+//54321

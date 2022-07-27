@@ -1,0 +1,15 @@
+
+#include <unistd.h>
+
+int	main(void)
+{
+	char	s1[10] = "123d213", s2[10] = "123245135";
+	char c;
+
+	c = ft_str_is_numeric(s1) + 48;
+	write(1, &c, 1);
+	c = ft_str_is_numeric(s2) + 48;
+	write(1, &c, 1);
+	return (0);
+}
+//01

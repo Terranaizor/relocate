@@ -1,0 +1,15 @@
+#include <unistd.h>
+
+int	main(void)
+{
+	int	n;
+	int	c;
+
+	n = 51;
+	ft_ft(&n);
+	c = n / 10 + 48;
+	write(1, &c, 1);
+	c = n % 10 + 48;
+	write(1, &c, 1);
+}
+//42

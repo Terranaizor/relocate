@@ -1,0 +1,6 @@
+int	main(void)
+{
+	ft_putchar('q');
+	return (0);
+}
+//q

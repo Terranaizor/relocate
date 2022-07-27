@@ -1,0 +1,8 @@
+int	main(void)
+{
+	char	s[50] = "string to \ntest this function! 123";
+
+	ft_putstr(s);
+}
+//string to
+//test this function! 123

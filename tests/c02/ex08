@@ -1,0 +1,25 @@
+
+#include <unistd.h>
+
+void	ft_output(char *arr)
+{
+	int	i;
+
+	i = 0;
+	while (arr[i] != '\0')
+	{
+		write(1, arr + i, 1);
+		i++;
+	}
+}
+
+int	main(void)
+{
+	char	s1[10] = "TES\nTING";
+
+	ft_strlowcase(s1);
+	ft_output(s1);
+	return (0);
+}
+//tes
+//ting

@@ -1,0 +1,19 @@
+
+#include <unistd.h>
+
+int	main(void)
+{
+	int		n1;
+	int		n2;
+	char	c;
+
+	n1 = 38;
+	n2 = 5;
+	ft_ultimate_div_mod(&n1, &n2);
+	c = n1 + 48;
+	write(1, &c, 1);
+	c = n2 + 48;
+	write(1, &c, 1);
+}
+
+//73
